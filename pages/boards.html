@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div>
+        <a href="#">
+        <img class="cart" src="../multimedia/imagenesheader/img_290414.png" alt="#cart">
+        </a>
+    </div>
+    <!-- || Comienzo del header || contiene logo, barra de busqueda, notificaciones, perfil y foto, con el nav bar. Codifico el navbar porque es lo que hemos visto por el momento! El logo tambien sera un hipervinculo -->
+    <header class="header">
+        <a href="../index.html">
+            <img class="logo" src="../multimedia/imagenesheader/logo ctrl key png.png" alt="#home">
+        </a>
+            <nav class="navbar" id="navbar">
+                <div class="navbar">
+                <ul class="navbar">
+                    <li><a href="../index.html"> keyboards </a></li>
+                    <li><a href="../pages/keycaps.html"> keycaps </a></li>
+                    <li><a href="../pages/switches.html"> switches </a></li>
+                    <li><a href="../pages/boards.html"> boards </a></li>
+                    <li><a href="../pages/accessories.html"> accessories </a></li>
+                    <li><a href="#"> cart</a></li> <!-- profe, desactivo el anchor de cart, por lo que no sabemos hacer uan el carrito de compras, pero por temas de visibilidad, lo dejo para que aparezca en el html.-->
+                </ul>
+            </div>
+            <!-- Se que no hemos visto como crear el search bar, pero quise incluirla sin funcion para poder terminar de hacer el diseno de CSS alreadedor de eso. Cuando lo veamos, lo dejo codificado-->
+            </nav>
+        <div class="searchbar">
+            <input type="text" placeholder="Type..">
+        </div>
+    </header>
+    <!-- || Fin del header || -->
+
+
+
+    <!-- || Comienzo de contenido de pagina, tarjetas de venta de diferentes tipos de boards || -->
+    <section>
+        <div class="descriptionboards">
+            <p> build your base </p>
+            <h3 class="descriptionboards--text__important"> cases & frames </h3>
+        </div>
+
+        <section class="boards">
+            <div class="boards--typesboards">
+                <img src="../multimedia/imagenboard/cases&frames/tofuanodizedaluminiumcase-grey.png" alt="keycaps">
+                    <p> tofu anodized aluminium case - grey </p>
+            </div>
+            <div class="boards--typesboards">
+                <img src="../multimedia/imagenboard/cases&frames/tofuanodizedaluminiumcase-purple.png" alt="keycaps">
+                    <p> tofu anodized aluminium case - purple </p>
+            </div>
+            <div class="boards--typesboards">
+                <img src="../multimedia/imagenboard/cases&frames/tofuanodizedaluminiumcase-red.png" alt="keycaps">
+                    <p> tofu anodized aluminium case - red </p>
+            </div>
+            <div class="boards--typesboards">
+                <img src="../multimedia/imagenboard/cases&frames/tofuanodizedaluminiumcase-silver.png" alt="keycaps">
+                    <p> tofu anodized aluminium case - silver </p>
+            </div>
+        </section>
+
+        <div class="descriptionboards">
+            <h3 class="descriptionboards--text__important"> plates </h3>
+        </div>
+
+        <section class="boards">
+            <div class="boards--typesboards">
+                <img src="../multimedia/imagenboard/plates/gmmkprobrassplate.png">
+                    <p> gmmkpro plate - brass </p>
+            </div>
+            <div class="boards--typesboards">
+                <img src="../multimedia/imagenboard/plates/gmmkprocarbonfiberplate.png">
+                    <p> gmmkpro plate - carbon fiber </p>
+            </div>
+            <div class="boards--typesboards">
+                <img src="../multimedia/imagenboard/plates/gmmkpropolycarbonateplate.png">
+                    <p> gmmkpro plate - polycarbonate </p>
+            </div>
+            <div class="boards--typesboards">
+                <img src="../multimedia/imagenboard/plates/gmmkprosilverplate.png">
+                    <p> gmmkpro plate - silver </p>
+            </div>
+        </section>
+
+        <div class="descriptionboards">
+            <h3 class="descriptionboards--text__important"> pcb </h3>
+        </div>
+
+        <section class="boards">
+            <div class="boards--typesboards">
+                <img src="../multimedia/imagenboard/pcb/dz60-rev-v2 pcb.png">
+                    <p> dz60 rev-v2 pcb </p>
+            </div>
+            <div class="boards--typesboards">
+                <img src="../multimedia/imagenboard/pcb/dz60-RGB-v2 pcb.png">
+                    <p> dz60 rgb-v2 pcb </p>
+            </div>
+            <div class="boards--typesboards">
+                <img src="../multimedia/imagenboard/pcb/facew purple pcb.png">
+                    <p> facew purple pcb </p>
+            </div>
+            <div class="boards--typesboards">
+                <img src="../multimedia/imagenboard/pcb/facew red pcb.png">
+                    <p> facew red pcb </p>
+            </div>
+        </section>
+    </section>
+     <!-- || fin de contenido de pagina, tarjetas de venta de diferentes tipos de boards || -->
+
+
+    <!-- || Comienzo Footer || Aca comienzo a usar BEM, y me termino gustando. Busque por internet y puedo usar esta especie de font para que salgan los inconos de las redes sin necesidad de usar imagenes, para bajarle peso a la pagina.-->
+    <footer class="footer">
+        <ul class="footer--contact">
+            <li><a class="icon__footer" href="https://www.instagram.com" target="_blank"> <i class="fa-brands fa-instagram"></i> </a></li>
+            <li><a class="icon__footer" href="https://www.discord.com" target="_blank"> <i class="fa-brands fa-discord"></i> </a></li>
+            <li><a class="icon__footer" href="https://www.facebook.com" target="_blank"> <i class="fa-brands fa-facebook"></i> </a></li>
+            <li><a class="icon__footer" href="https://www.twitter.com" target="_blank"> <i class="fa-brands fa-twitter"></i> </a></li>
+            <li><a class="icon__footer" href="https://www.youtube.com" target="_blank"> <i class="fa-brands fa-youtube"></i> </a></li>
+        </ul>
+    
+        <!-- || Logo en medio del footer ||-->
+        <div class="footer--logo">
+            <a href="#navbar">
+            <img class="logo__footer" src="../multimedia/imagenesheader/logo ctrl key png.png" alt="#home"> </a>
+        </div>
+        <a href="" class="linkalinfinito"></a>
+        <!-- Las opciones del ultimo nav, que son del terminos, politicas y eso, esta hecho para abrir en otra pestana a proposito/ !IMPORTANTE! Desactivo el link a manual de usuario porque no estaba seguro que contenido quiero incluir aun! Tengo suficientes html por ahora como para que no impacte. -->
+    
+        <ul class="footer--info">
+            <li><a class="info__footer" href="../footerlinks/terminoscondiciones.html" target="_blank"> terms & conditions </a></li> <!-- codigo escrito para desafio-->
+            <!-- <li><a class="info__footer" href="/footerlinks/usermanuals.html" target="_blank"> --> user manuals </a></li>
+            <li><a class="info__footer" href="../footerlinks/warranty.html" target="_blank"> warranty </a></li> <!-- codigo escrito para desafio-->
+            <li><a class="info__footer" href="../footerlinks/privacypolicy.html" target="_blank"> privacypolicy </a></li> <!-- codigo escrito para desafio-->
+        </ul>
+</footer>
+<!-- || Fin de Footer || -->
+
+</body>
+</html>

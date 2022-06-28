@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <a name="top"></a>
+    <!-- || Comienzo del header || contiene logo, barra de busqueda, notificaciones, perfil y foto, con el nav bar. Codifico el navbar porque es lo que hemos visto por el momento! El logo tambien sera un hipervinculo -->
+    <header class="header-grid-container">
+        <div class="header-grid-item-1">
+            <a href="index.html">
+                <img class="logo" src="./multimedia/imagenesheader/logo ctrl key png.png" alt="#home">
+            </a>
+        </div>
+        <div class="header-grid-item-2">
+            <nav>
+                <ul>
+                    <li><a href="index.html"> keyboards </a></li>
+                    <li><a href="./pages/keycaps.html"> keycaps </a></li>
+                    <li><a href="./pages/switches.html"> switches </a></li>
+                    <li><a href="./pages/boards.html"> boards </a></li>
+                    <li><a href="./pages/accessories.html"> accessories </a></li>
+                    <li><a href="#"> cart</a></li> <!-- profe, desactivo el anchor de cart, por lo que no sabemos hacer uan el carrito de compras, pero por temas de visibilidad, lo dejo para que aparezca en el html.-->
+                </ul>
+            <!-- Se que no hemos visto como crear el search bar, pero quise incluirla sin funcion para poder terminar de hacer el diseno de CSS alreadedor de eso. Cuando lo veamos, lo dejo codificado-->
+            </nav>
+        </div>
+        <div class="header-grid-item-3">
+            <input type="text" placeholder="Type..">
+        </div>
+    </header>
+    <!-- || Fin del header || -->
+
+
+        <!-- || Comienzo de Carousel // Clarificacion, mientras aprendemos a hacer el carousel, solo voy a dejar una imagen en el carousel para que se haga mas facil navegar. En la entrega anterior, tengo adjuntas todas las imagenes que van dentro del carousel. -->
+        <section class="carousel">
+            <img class="carousel--imagen" src="./multimedia/imagenescarousel/twokeyboards60.jpg" alt="#carousel">
+        </section>
+        <!-- || Fin del Carousel -->
+
+
+        <!-- || Seccion pequena de texto || -->
+        <section class="description-grid-container">
+            <div class="description-grid-item1">
+                <h3> intro to mechanical keyboards </h3>
+            </div>
+            <div class="description-grid-item2">
+                <p>component breakdown</p>
+            </div>
+            <div class="description-grid-item3">
+                <p> switches </p>
+            </div>
+            <div class="description-grid-item4">
+                <p> <a href="#keyboardsizes"> keyboard sizes </a></p>
+            </div>
+        </section>
+        <!-- || Fin de seccion-->
+
+        <!--|| Imagen prueba por componentes || -->
+
+        <section class="image-container">
+            <div class="component-card">
+                <div class="image-components">
+                    <p> keycaps </p>
+                    <img src="./multimedia/imagenesbreakdown/keycaps.png" alt="keycaps">
+                </div>
+                <div class="description-components">
+                    <p>
+                        Visible keys that activate underlying switches.
+                    </p>
+                </div>
+            </div>
+            <div class="component-card">
+                <div class="image-components">
+                    <p> switches </p>
+                    <img src="./multimedia/imagenesbreakdown/switches.png" alt="keycaps">
+                </div>
+                <div class="description-components">
+                    <p>
+                        Transfer keystrokes to Printed Circuit Board (PCB).
+                    </p>
+                </div>
+            </div>
+            <div class="component-topcase">
+                <p> topcase </p>
+                <img src="./multimedia/imagenesbreakdown/topcase.png" alt="topcase">
+            </div>
+            <div class="component-plate">
+                <p> plate </p>
+                <img src="./multimedia/imagenesbreakdown/plate.png" alt="plate">
+            </div>
+            <div class="component-soundabsorbingfoam">
+                <p> sound-absorbing foam </p>
+                <img src="./multimedia/imagenesbreakdown/soundabsorbingfoam.png" alt="soundabsorbingfoam">
+            </div>
+            <div class="component-pcb">
+                <p> pcb </p>
+                <img src="./multimedia/imagenesbreakdown/pcb.png" alt="pcb">
+            </div>
+            <div class="component-casefoam">
+                <p> case-foam </p>
+                <img src="./multimedia/imagenesbreakdown/casefoam.png" alt="casefoam">
+            </div>
+            <div class="component-bottomcase">
+                <p> bottom-case </p>
+                <img src="./multimedia/imagenesbreakdown/bottom case.png" alt="bottomcase">
+            </div>
+        </section>
+
+
+
+
+
+        <!-- || Component breakdown || -->
+        <section class="component-grid-container">
+            <div class="component-grid-item1">
+                <img class="componentbreakdown" src="./multimedia/imagenesbreakdown/breakdownfull.png" alt="componentbreakdown">
+            </div>
+            <div class="component-grid-item2">
+                <p> keycaps</p>
+            </div>
+            <div class="component-grid-item3">
+                <p> switches</p>
+            </div>
+            <div class="component-grid-item4">
+                <p> top-case</p>
+            </div>
+            <div class="component-grid-item5">
+                <p> plate</p>
+            </div>
+            <div class="component-grid-item6">
+                <p> sound-cancelling foam</p>
+            </div>
+            <div class="component-grid-item7">
+                <p> pcb</p>
+            </div>
+            <div class="component-grid-item8">
+                <p> case-foam</p>
+            </div>
+            <div class="component-grid-item9">
+                <p> bottom-case</p>
+            </div>
+        </section>
+
+
+        <!-- || Seccion con tipos de teclados - Imagen de teclado primero, abajo la descripcion || -->
+        <section class="types" id="keyboardsizes">
+            <div class="types--keyboards">
+                <img src="./multimedia/imageneskeybs/fullsize.jpg" alt="#keyboards">
+                <p> full size </p>
+            </div>
+            <div class="types--keyboards" >
+                <img src="./multimedia/imageneskeybs/tkless.jpg" alt="#keyboards">
+                <p> tenkeyless </p>
+            </div>
+            <div class="types--keyboards">
+                <img src="./multimedia/imageneskeybs/75percent.jpg" alt="#keyboards">
+                <p> 75% </p>
+            </div>
+            <div class="types--keyboards">
+            <img src="./multimedia/imageneskeybs/65percent.jpg" alt="#keyboards">
+                <p> 65% </p>
+            </div>
+            <div class="types--keyboards">
+                <img src="./multimedia/imageneskeybs/60percent.jpg" alt="#keyboards">
+                <p> 60% </p>
+            </div>
+            <div class="types--keyboards" >
+            <img src="./multimedia/imageneskeybs/numpad.jpg" alt="#keyboards">
+                <p> numpad </p>
+            </div>
+        </section>
+     <!-- || Fin de seccion con tipos de teclados || -->
+
+</body>
+<!-- || Comienzo Footer || Aca comienzo a usar BEM, y me termino gustando. Busque por internet y puedo usar esta especie de font para que salgan los inconos de las redes sin necesidad de usar imagenes, para bajarle peso a la pagina.-->
+<footer class="footer-grid-container">
+    <div class="footer-grid-item-1">
+        <ul>
+            <li><a class="icon__footer" href="https://www.instagram.com" target="_blank"> <i class="fa-brands fa-instagram"></i> </a></li>
+            <li><a class="icon__footer" href="https://www.discord.com" target="_blank"> <i class="fa-brands fa-discord"></i> </a></li>
+            <li><a class="icon__footer" href="https://www.facebook.com" target="_blank"> <i class="fa-brands fa-facebook"></i> </a></li>
+            <li><a class="icon__footer" href="https://www.twitter.com" target="_blank"> <i class="fa-brands fa-twitter"></i> </a></li>
+            <li><a class="icon__footer" href="https://www.youtube.com" target="_blank"> <i class="fa-brands fa-youtube"></i> </a></li>
+        </ul>
+    </div>
+
+    <!-- || Logo en medio del footer ||-->
+    <div class="footer-grid-item-2">
+        <a href="#top">
+        <img class="logo__footer" src="./multimedia/imagenesheader/logo ctrl key png.png" alt="#home"> </a>
+    </div>
+
+    <a href="" class="linkalinfinito"></a>
+    <!-- Las opciones del ultimo nav, que son del terminos, politicas y eso, esta hecho para abrir en otra pestana a proposito/ !IMPORTANTE! Desactivo el link a manual de usuario porque no estaba seguro que contenido quiero incluir aun! Tengo suficientes html por ahora como para que no impacte. -->
+
+    <ul class="footer-grid-item-3">
+        <li><a class="info__footer" href="./footerlinks/terminoscondiciones.html" target="_blank"> terms & conditions </a></li> <!-- codigo escrito para desafio-->
+        <!-- <li><a class="info__footer" href="/footerlinks/usermanuals.html" target="_blank"> -->  </a></li>
+        <li><a class="info__footer" href="./footerlinks/warranty.html" target="_blank"> warranty </a></li> <!-- codigo escrito para desafio-->
+        <li><a class="info__footer" href="./footerlinks/privacypolicy.html" target="_blank"> privacypolicy </a></li> <!-- codigo escrito para desafio-->
+    </ul>
+</footer>
+<!-- || Fin de Footer || -->
+
+
+</html>
